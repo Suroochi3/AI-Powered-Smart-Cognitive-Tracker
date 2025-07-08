@@ -73,7 +73,7 @@ The output predictions used for fusion are **not generated here**, but are inste
 pip install pandas scikit-learn xgboost torch torchvision timm
 
 
-🧠 System Architecture Summary
+## 🧠 System Architecture Summary
 
 Text (BERT)       → Standalone
 Voice (Wav2Vec)   → Standalone
