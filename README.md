@@ -67,10 +67,6 @@ The output predictions used for fusion are **not generated here**, but are inste
 
 ---
 
-## 📦 Requirements
-
-```bash
-pip install pandas scikit-learn xgboost torch torchvision timm
 
 
 ## 🧠 System Architecture Summary
@@ -81,3 +77,8 @@ Voice (Wav2Vec)   → Standalone
 Image (ViT)  ↘ 
               → Partial Fusion → Final Risk Score
 Tabular (XGB) ↗
+
+## 📦 Requirements
+
+```bash
+pip install pandas scikit-learn xgboost torch torchvision timm
